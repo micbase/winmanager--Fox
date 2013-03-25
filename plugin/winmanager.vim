@@ -1144,6 +1144,7 @@ function! <SID>ToggleWindowsManager()
 		call s:CloseWindowsManager()
 	else
 		call s:StartWindowsManager()
+        exec 'q'
 	end
 endfunction
 
